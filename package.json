@@ -1,0 +1,27 @@
+{
+  "name": "react-redux-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6"
+  },
+  "devDependencies": {
+    "codeceptjs": "^1.0.1",
+    "enzyme": "^2.9.1",
+    "pre-commit": "^1.2.2",
+    "react-scripts": "1.0.11",
+    "react-test-renderer": "^15.6.1",
+    "webdriverio": "^4.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "e2e": "codeceptjs run --steps"
+  }
+}

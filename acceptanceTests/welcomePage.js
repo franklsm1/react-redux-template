@@ -1,3 +1,4 @@
+/// <reference path="./steps.d.ts" />
 Feature('Welcome Page');
 
 Scenario("load the inital page", (I) => {

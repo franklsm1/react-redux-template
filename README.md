@@ -2,14 +2,13 @@
 
 #### Steps taken to set up this template:
 - `create-react-app new-webpage`
-- `yarn add enzyme react-test-renderer pre-commit codeceptjs webdriverio --dev`
-- `yarn add react-redux redux redux-saga`
+- `yarn add enzyme react-test-renderer node-sass npm-run-all pre-commit codeceptjs webdriverio --dev`
+- `yarn add react-redux redux`
 - `yarn global add selenium-standalone`
 - `selenium-standalone install`
 - Create a `src/tests/App.test.js` file with a unit test using Jest and Enzyme
 - Create the `codecept.conf.js` file along with the `acceptanceTests` directory
 - Create a `acceptanceTests/welcomePage.js` file containing an acceptance test
-
 
 #### Commands available:
 Start the application (available at localhost:3000): `npm start`
